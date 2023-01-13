@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/00springboot&amp;vue fastuse/pom.xml" />
         <option value="$PROJECT_DIR$/00springboot&amp;vue fastuse/helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/00springboot&amp;vue fastuse/mybatisplusdemo/pom.xml" />
       </list>
     </option>
   </component>
