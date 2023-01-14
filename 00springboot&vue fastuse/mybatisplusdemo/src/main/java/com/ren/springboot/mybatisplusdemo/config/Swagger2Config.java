@@ -3,6 +3,8 @@ package com.ren.springboot.mybatisplusdemo.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
@@ -29,7 +31,8 @@ public class Swagger2Config {
                 .select()
                 // com包下所有API都交给Swagger2管理
                 .apis(RequestHandlerSelectors.basePackage("com"))
-                .paths(PathSelectors.any()).build();
+                .paths(PathSelectors.any())
+                .build();
     }
 
     // API文档页面显示信息
@@ -39,4 +42,5 @@ public class Swagger2Config {
                 .description("学习Swagger2的演示项目")  // 描述
                 .build();
     }
+
 }

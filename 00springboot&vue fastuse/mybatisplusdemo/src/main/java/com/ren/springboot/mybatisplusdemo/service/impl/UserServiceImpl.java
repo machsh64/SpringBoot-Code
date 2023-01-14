@@ -22,26 +22,51 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public int add(User user) {
-        return 0;
+        return userMapper.insert(user);
     }
 
     @Override
     public int update(User user) {
-        return 0;
+        return userMapper.updateById(user);
     }
 
     @Override
     public int delete(Integer id) {
-        return 0;
+        return userMapper.deleteById(id);
     }
 
     @Override
     public User findById(Integer id) {
-        return userMapper.findById(id);
+        return userMapper.selectById(id);
     }
 
     @Override
     public List<User> getAll() {
-        return userMapper.getAll();
+        return userMapper.selectList(null);
     }
+
+//    @Override
+//    public int add(User user) {
+//        return userMapper.add(user);
+//    }
+//
+//    @Override
+//    public int update(User user) {
+//        return userMapper.update(user);
+//    }
+//
+//    @Override
+//    public int delete(Integer id) {
+//        return userMapper.delete(id);
+//    }
+//
+//    @Override
+//    public User findById(Integer id) {
+//        return userMapper.findById(id);
+//    }
+//
+//    @Override
+//    public List<User> getAll() {
+//        return userMapper.getAll();
+//    }
 }

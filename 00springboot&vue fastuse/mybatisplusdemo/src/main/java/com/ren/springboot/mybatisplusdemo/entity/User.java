@@ -1,6 +1,9 @@
 package com.ren.springboot.mybatisplusdemo.entity;
 
-import java.util.Date;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableId;
+
+import java.io.Serializable;
 
 /**
  * @program: SpringbootCode
@@ -8,26 +11,27 @@ import java.util.Date;
  * @create: 2023-01-13 17:19
  * @description:
  **/
-public class User {
+public class User implements Serializable{
 
+    @TableId(value = "id",type = IdType.AUTO)
     private Integer id;
 
     private String username;
 
     private String password;
 
-    private Date birthday;
+    private String birthday;
 
     public User() {
     }
 
-    public User(String username, String password, Date birthday) {
+    public User(String username, String password, String birthday) {
         this.username = username;
         this.password = password;
         this.birthday = birthday;
     }
 
-    public User(Integer id, String username, String password, Date birthday) {
+    public User(Integer id, String username, String password, String birthday) {
         this.id = id;
         this.username = username;
         this.password = password;
@@ -58,11 +62,11 @@ public class User {
         this.password = password;
     }
 
-    public Date getBirthday() {
+    public String getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(Date birthday) {
+    public void setBirthday(String birthday) {
         this.birthday = birthday;
     }
 
