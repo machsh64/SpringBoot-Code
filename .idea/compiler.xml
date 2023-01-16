@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,10 +10,12 @@
         <module name="mybatisplusdemo" />
         <module name="boot-01-helloworld" />
         <module name="helloworld" />
+        <module name="boot-01-helloworld-2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="boot-01-helloworld" target="1.8" />
+      <module name="boot-01-helloworld-2" target="1.8" />
       <module name="helloworld" target="1.8" />
       <module name="helloworld (1)" target="1.8" />
       <module name="mybatisplusdemo" target="1.8" />
@@ -21,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="boot-01-helloworld" options="-parameters" />
+      <module name="boot-01-helloworld-2" options="-parameters" />
       <module name="helloworld" options="-parameters" />
       <module name="helloworld (1)" options="-parameters" />
       <module name="mybatisplusdemo" options="-parameters" />
