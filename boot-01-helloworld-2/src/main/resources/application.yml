@@ -1,0 +1,30 @@
+# yaml标识以上对象
+person:
+  boss: true
+  birth: 2019/12/9
+  age: 19
+#  interests: [篮球,足球]
+  interests:
+    - 篮球
+    - 足球
+  animal: [猫,狗,狼]
+#  score:
+#    english: 80
+#    math: 90
+  score: {english: 80,math: 90}
+#  salarys: [999.3,292.22]
+  salarys:
+    - 999.23
+    - 232.12
+  pet:
+    name: 丽丽
+    weight: 90.33
+  allPets:
+    sick:
+      - {name: 阿狗,weight: 90.22}
+      - name: 阿猫
+        weight: 88.88
+      - name: 阿龙
+        weight: 23.13
+    helth: [{name: 阿马帕,weight: 23.12},{name: 阿吉翁,weight: 24.14}]
+  user-name: 阿斯各
