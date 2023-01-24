@@ -1,5 +1,6 @@
 package com.ren.boot.controller;
 
+import com.ren.boot.entity.Person;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
@@ -65,5 +66,12 @@ public class IndexController {
         map.put("brand",brand);
 
         return map;
+    }
+
+    @ResponseBody
+    @GetMapping("/test/person")
+    public Person getPerson(){
+
+        return new Person("haha张三","test123",22);
     }
 }
