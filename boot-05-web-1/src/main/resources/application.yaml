@@ -19,3 +19,7 @@ spring:
       cache:
         period: 11000
 
+# 要求项目所有访问路径前必须加上/world才可以被访问到
+server:
+  servlet:
+    context-path: /world
