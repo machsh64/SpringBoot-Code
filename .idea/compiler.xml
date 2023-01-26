@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="helloworld" />
         <module name="boot-01-helloworld-2" />
+        <module name="boot-05-web-admin" />
         <module name="boot-01-helloworld" />
         <module name="mybatisplusdemo" />
         <module name="boot-05-web-1" />
@@ -20,6 +21,7 @@
       <module name="boot-01-helloworld-2" target="1.8" />
       <module name="boot-05-web-01" target="1.8" />
       <module name="boot-05-web-1" target="1.8" />
+      <module name="boot-05-web-admin" target="1.8" />
       <module name="helloworld" target="1.8" />
       <module name="helloworld (1)" target="1.8" />
       <module name="mybatisplusdemo" target="1.8" />
@@ -31,6 +33,7 @@
       <module name="boot-01-helloworld-2" options="-parameters" />
       <module name="boot-05-web-01" options="-parameters" />
       <module name="boot-05-web-1" options="-parameters" />
+      <module name="boot-05-web-admin" options="-parameters" />
       <module name="helloworld" options="-parameters" />
       <module name="helloworld (1)" options="-parameters" />
       <module name="mybatisplusdemo" options="-parameters" />

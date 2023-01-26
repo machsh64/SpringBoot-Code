@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/boot-01-helloworld/boot-01-helloworld.iml" filepath="$PROJECT_DIR$/boot-01-helloworld/boot-01-helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-01-helloworld-2/boot-01-helloworld-2.iml" filepath="$PROJECT_DIR$/boot-01-helloworld-2/boot-01-helloworld-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-05-web-1/boot-05-web-1.iml" filepath="$PROJECT_DIR$/boot-05-web-1/boot-05-web-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-05-web-admin/boot-05-web-admin.iml" filepath="$PROJECT_DIR$/boot-05-web-admin/boot-05-web-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/00springboot&amp;vue fastuse/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/00springboot&amp;vue fastuse/helloworld/helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/00springboot&amp;vue fastuse/mybatisplusdemo/mybatisplusdemo.iml" filepath="$PROJECT_DIR$/00springboot&amp;vue fastuse/mybatisplusdemo/mybatisplusdemo.iml" />
     </modules>
