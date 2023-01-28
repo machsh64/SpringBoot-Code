@@ -29,7 +29,7 @@ public class WebConfig implements WebMvcConfigurer {
         LoginInterceptor loginInterceptor = new LoginInterceptor();
         InterceptorRegistration ir = registry.addInterceptor(loginInterceptor);
         ir.addPathPatterns("/**");
-        ir.excludePathPatterns("/login","/js/**","/css/**","/images/**","/fonts/**","/html/**","/error");
+        ir.excludePathPatterns("/login","/js/**","/css/**","/images/**","/fonts/**","/html/**","/error","/upload");
     }
 
     // 异常解析器

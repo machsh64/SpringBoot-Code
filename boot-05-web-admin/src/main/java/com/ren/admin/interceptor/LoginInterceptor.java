@@ -23,7 +23,8 @@ public class LoginInterceptor implements HandlerInterceptor {
             return true;
         }else {
             request.setAttribute("msg","请登陆后访问");
-            response.sendRedirect("/login");
+           // response.sendRedirect("/login");
+            request.getRequestDispatcher("/login").forward(request,response);
             return false;
         }
     }
