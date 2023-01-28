@@ -24,6 +24,7 @@ public class IndexController {
      */
     @GetMapping(value = {"/login","/"})
     public String loginPage(HttpSession session){
+        // 再次访问login页面即视为退出登录
         session.setAttribute("loginUser",null);
         return "login";
     }
@@ -33,7 +34,7 @@ public class IndexController {
     public String main(User user, Model model, HttpSession session){
 
         if (!StringUtils.isEmpty(user)&&user.getUsername().equals("123")&&user.getPassword().equals("123")) {
-            // 把登陆成功的用户博爱村气力啊
+            // 把登陆成功的用户保存到session域
             session.setAttribute("loginUser",user);
             // 登录成功 重定向到index页面
             return "redirect:/index.html";
@@ -50,13 +51,8 @@ public class IndexController {
      * @return index
      */
     @GetMapping("/index.html")
-    public String mainPage(HttpSession session){
+    public String indexPage(){
 
-        Object user = session.getAttribute("loginUser");
-        if (user!=null) {
             return "index";
-        }else {
-            return "login";
-        }
     }
 }

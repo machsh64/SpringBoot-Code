@@ -26,228 +26,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="396e7e9d-427a-4eb2-aa16-f462f750c43d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/Boot05WebAdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/TableController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/css/bootstrap-fileupload.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/css/bootstrap-reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/css/clndr.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/css/jquery-ui-1.10.3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/css/jquery.stepy.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/css/style-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/css/table-responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/fonts/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/fonts/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/404-error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/500-error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/avatar-mini.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/blog/blog-avatar-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/blog/blog-avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/blog/blog-sm-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/blog/blog-thumb-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/blog/blog-thumb-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/blog/blog-thumb-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/blog/blog-wide-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/blog/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/blog/image3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/details_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/gallery/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/gallery/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/gallery/image3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/gallery/image4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/gallery/image5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/gallery/sm-img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/gallery/sm-img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/gallery/sm-img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/input-spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/invoice-logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/lockscreen-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/login-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/login-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/logo_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/photos/user-avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/photos/user1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/photos/user2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/photos/user3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/photos/user4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/photos/user5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/plus-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/images/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/advanced-datatable/css/demo_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/advanced-datatable/css/demo_table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/advanced-datatable/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-colorpicker/css/colorpicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-colorpicker/img/alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-colorpicker/img/saturation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-colorpicker/js/bootstrap-colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-datepicker/css/datepicker-custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-daterangepicker/daterangepicker-bs3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-daterangepicker/moment.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-datetimepicker/css/datetimepicker-custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-fileupload.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-inputmask/bootstrap-inputmask.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-timepicker/css/timepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-timepicker/js/bootstrap-timepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap-wysihtml5/wysiwyg-color.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/c3-chart/c3-chart.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/c3-chart/c3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/c3-chart/c3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/calendar/clndr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/calendar/evnt.calendar.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/calendar/moment-2.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/chart-js/Chart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/chart-js/chartjs.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ckeditor/ckeditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ckeditor/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ckeditor/contents.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ckeditor/lang/zh-cn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ckeditor/plugins/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ckeditor/skins/moono/editor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ckeditor/skins/moono/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ckeditor/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/dashboard-chart-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/data-tables/DT_bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/data-tables/DT_bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/data-tables/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/data-tables/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/data-tables/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/data-tables/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/dropzone/css/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/dropzone/dropzone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/dropzone/images/spritemap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/dynamic_table_init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/easypiechart/easypiechart-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/easypiechart/jquery.easypiechart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/editable-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/external-dragging-calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/flot-chart/jquery.flot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/flot-chart/jquery.flot.pie.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/flot-chart/jquery.flot.resize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/flot-chart/jquery.flot.selection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/flot-chart/jquery.flot.stack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/flot-chart/jquery.flot.time.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/flot-chart/jquery.flot.tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/flot.chart.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/fuelux/css/tree-style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/fuelux/img/tree-icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/fuelux/js/spinner.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/fuelux/js/tree.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/fullcalendar/bootstrap-fullcalendar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/fullcalendar/fullcalendar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/google-map/gmaps-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/google-map/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/gritter/css/jquery.gritter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/gritter/js/gritter-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/gritter/js/jquery.gritter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/jquery.icheck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/grey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/grey.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/flat/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/minimal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/minimal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/minimal/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/square.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/iCheck/skins/square/yellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/icheck-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ion.rangeSlider-1.8.2/css/ion.rangeSlider.skinFlat.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ion.rangeSlider-1.8.2/img/sprite-skin-flat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ion.rangeSlider-1.8.2/js/ion-rangeSlider/ion.rangeSlider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ios-switch/ios-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ios-switch/switchery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/ios-switch/switchery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery-1.10.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery-multi-select/css/multi-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery-multi-select/img/switch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery-multi-select/js/jquery.multi-select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery-multi-select/js/jquery.quicksearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery-tags-input/jquery.tagsinput.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery-tags-input/jquery.tagsinput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery-ui-1.9.2.custom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery.isotope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery.nicescroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery.stepy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jvector-map/jqvmap/data/jquery.vmap.sampledata.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jvector-map/jqvmap/jquery.vmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.asia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.australia.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jvector-map/jqvmap/maps/continents/jquery.vmap.europe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/jvector-map/jqvmap/maps/jquery.vmap.world.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/modernizr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/morris-chart/morris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/morris-chart/morris.init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/morris-chart/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/morris-chart/raphael-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/multi-select-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/nestable-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/nestable/jquery.nestable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/nestable/jquery.nestable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/pickers-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/sparkline/jquery.sparkline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/sparkline/sparkline-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/spinner-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/tagsinput-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/tree-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/static/js/validation-init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/common.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/table/basic_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/table/dynamic_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/table/editable_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/table/pricing_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/table/responsive_table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/test/java/com/ren/admin/Boot05WebAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/common.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,8 +49,9 @@
         <option value="WebInit" />
         <option value="Tag Library Descriptor" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="WebConfig" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -304,7 +88,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/table" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitRep" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26666668" />
@@ -316,8 +100,8 @@
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-1\src\main\resources\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates\table" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates" />
+      <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates\table" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\static" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-1\src\main\resources\haha" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-1\src\main\resources\static" />
@@ -444,7 +228,7 @@
       <workItem from="1673428265440" duration="4134000" />
       <workItem from="1673515552752" duration="13520000" />
       <workItem from="1673597552567" duration="36872000" />
-      <workItem from="1673864831740" duration="58195000" />
+      <workItem from="1673864831740" duration="66165000" />
     </task>
     <servers />
   </component>
@@ -491,54 +275,58 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="709" y="377" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673520903618" />
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1674726678321">
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1674898567307">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674726678321" />
-    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1674223043644">
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674898567307" />
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1674900616411">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="294" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674223043644" />
-    <state width="1528" height="268" key="GridCell.Tab.0.bottom" timestamp="1674739195705">
+    <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674900616411" />
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1674899927204">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="268" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730536402" />
-    <state width="1528" height="268" key="GridCell.Tab.0.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739195705" />
-    <state width="1528" height="268" key="GridCell.Tab.0.center" timestamp="1674739195705">
+    <state x="740" y="294" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674899927204" />
+    <state width="1528" height="329" key="GridCell.Tab.0.bottom" timestamp="1674899235613">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="268" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730536402" />
-    <state width="1528" height="268" key="GridCell.Tab.0.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739195705" />
-    <state width="1528" height="268" key="GridCell.Tab.0.left" timestamp="1674739195705">
+    <state width="1528" height="329" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674899235613" />
+    <state width="1528" height="311" key="GridCell.Tab.0.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
+    <state width="1528" height="329" key="GridCell.Tab.0.center" timestamp="1674899235612">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="268" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730536402" />
-    <state width="1528" height="268" key="GridCell.Tab.0.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739195705" />
-    <state width="1528" height="268" key="GridCell.Tab.0.right" timestamp="1674739195705">
+    <state width="1528" height="329" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674899235612" />
+    <state width="1528" height="311" key="GridCell.Tab.0.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
+    <state width="1528" height="329" key="GridCell.Tab.0.left" timestamp="1674899235612">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="268" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730536402" />
-    <state width="1528" height="268" key="GridCell.Tab.0.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739195705" />
-    <state width="1528" height="268" key="GridCell.Tab.1.bottom" timestamp="1674739195705">
+    <state width="1528" height="329" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674899235612" />
+    <state width="1528" height="311" key="GridCell.Tab.0.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602393" />
+    <state width="1528" height="329" key="GridCell.Tab.0.right" timestamp="1674899235612">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="268" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730536403" />
-    <state width="1528" height="268" key="GridCell.Tab.1.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739195705" />
-    <state width="1528" height="268" key="GridCell.Tab.1.center" timestamp="1674739195705">
+    <state width="1528" height="329" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674899235612" />
+    <state width="1528" height="311" key="GridCell.Tab.0.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
+    <state width="1528" height="329" key="GridCell.Tab.1.bottom" timestamp="1674899235614">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="268" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730536403" />
-    <state width="1528" height="268" key="GridCell.Tab.1.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739195705" />
-    <state width="1528" height="268" key="GridCell.Tab.1.left" timestamp="1674739195705">
+    <state width="1528" height="329" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674899235614" />
+    <state width="1528" height="311" key="GridCell.Tab.1.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
+    <state width="1528" height="329" key="GridCell.Tab.1.center" timestamp="1674899235613">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="268" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730536402" />
-    <state width="1528" height="268" key="GridCell.Tab.1.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739195705" />
-    <state width="1528" height="268" key="GridCell.Tab.1.right" timestamp="1674739195705">
+    <state width="1528" height="329" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674899235613" />
+    <state width="1528" height="311" key="GridCell.Tab.1.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
+    <state width="1528" height="329" key="GridCell.Tab.1.left" timestamp="1674899235613">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="268" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730536403" />
-    <state width="1528" height="268" key="GridCell.Tab.1.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739195705" />
+    <state width="1528" height="329" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674899235613" />
+    <state width="1528" height="311" key="GridCell.Tab.1.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
+    <state width="1528" height="329" key="GridCell.Tab.1.right" timestamp="1674899235613">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1528" height="329" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674899235613" />
+    <state width="1528" height="311" key="GridCell.Tab.1.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
     <state x="362" y="172" key="Maven.ArtifactSearchDialog" timestamp="1673605095798">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
