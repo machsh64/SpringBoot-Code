@@ -1,9 +1,12 @@
 package com.ren.admin.controller;
 
 import com.ren.admin.entity.User;
+import com.ren.admin.exception.UserTooManyException;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -34,6 +37,11 @@ public class TableController {
         users.add(new User("哈哈", "3214"));
         users.add(new User("哈佛", "51331"));
         model.addAttribute("users", users);
+
+        if (users.size()>3){
+            throw new ResponseStatusException(HttpStatus.NOT_FOUND,"用户数量太多");
+            //throw new UserTooManyException("tetetetetet");
+        }
         return "table/dynamic_table";
     }
 

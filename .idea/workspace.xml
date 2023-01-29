@@ -26,12 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="396e7e9d-427a-4eb2-aa16-f462f750c43d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/FormTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/form/form_layouts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/exception/UserTooManyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/error/4xx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/error/5xx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/interceptor/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/interceptor/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/TableController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/TableController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/common.html" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/common.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/form" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/error" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26666668" />
@@ -101,11 +102,11 @@
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-1\src\main\resources\templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates\error" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates\form" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates\table" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\static" />
-      <recent name="D:\RenComp\SpringbootCode\boot-05-web-1\src\main\resources\haha" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -229,7 +230,7 @@
       <workItem from="1673428265440" duration="4134000" />
       <workItem from="1673515552752" duration="13520000" />
       <workItem from="1673597552567" duration="36872000" />
-      <workItem from="1673864831740" duration="74165000" />
+      <workItem from="1673864831740" duration="87586000" />
     </task>
     <servers />
   </component>
@@ -276,10 +277,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="709" y="377" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673520903618" />
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1674898567307">
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1674994941736">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674898567307" />
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674994941736" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1674900616411">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -288,45 +289,45 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674899927204" />
-    <state width="1528" height="308" key="GridCell.Tab.0.bottom" timestamp="1674915446049">
+    <state width="1528" height="338" key="GridCell.Tab.0.bottom" timestamp="1674998384716">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="308" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674915446049" />
+    <state width="1528" height="338" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674998384716" />
     <state width="1528" height="311" key="GridCell.Tab.0.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="308" key="GridCell.Tab.0.center" timestamp="1674915446049">
+    <state width="1528" height="338" key="GridCell.Tab.0.center" timestamp="1674998384715">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="308" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674915446049" />
+    <state width="1528" height="338" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674998384715" />
     <state width="1528" height="311" key="GridCell.Tab.0.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="308" key="GridCell.Tab.0.left" timestamp="1674915446049">
+    <state width="1528" height="338" key="GridCell.Tab.0.left" timestamp="1674998384715">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="308" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674915446049" />
+    <state width="1528" height="338" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674998384715" />
     <state width="1528" height="311" key="GridCell.Tab.0.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602393" />
-    <state width="1528" height="308" key="GridCell.Tab.0.right" timestamp="1674915446049">
+    <state width="1528" height="338" key="GridCell.Tab.0.right" timestamp="1674998384715">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="308" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674915446049" />
+    <state width="1528" height="338" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674998384715" />
     <state width="1528" height="311" key="GridCell.Tab.0.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="308" key="GridCell.Tab.1.bottom" timestamp="1674915446049">
+    <state width="1528" height="338" key="GridCell.Tab.1.bottom" timestamp="1674998384716">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="308" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674915446049" />
+    <state width="1528" height="338" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674998384716" />
     <state width="1528" height="311" key="GridCell.Tab.1.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="308" key="GridCell.Tab.1.center" timestamp="1674915446049">
+    <state width="1528" height="338" key="GridCell.Tab.1.center" timestamp="1674998384716">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="308" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674915446049" />
+    <state width="1528" height="338" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674998384716" />
     <state width="1528" height="311" key="GridCell.Tab.1.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="308" key="GridCell.Tab.1.left" timestamp="1674915446049">
+    <state width="1528" height="338" key="GridCell.Tab.1.left" timestamp="1674998384716">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="308" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674915446049" />
+    <state width="1528" height="338" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674998384716" />
     <state width="1528" height="311" key="GridCell.Tab.1.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="308" key="GridCell.Tab.1.right" timestamp="1674915446049">
+    <state width="1528" height="338" key="GridCell.Tab.1.right" timestamp="1674998384716">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="308" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674915446049" />
+    <state width="1528" height="338" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674998384716" />
     <state width="1528" height="311" key="GridCell.Tab.1.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
     <state x="362" y="172" key="Maven.ArtifactSearchDialog" timestamp="1673605095798">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -364,9 +365,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="616" y="250" key="run.anything.popup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730586266" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1674730594661">
+    <state x="1119" y="142" width="672" height="678" key="search.everywhere.popup" timestamp="1674997684081">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730594661" />
+    <state x="1119" y="142" width="672" height="678" key="search.everywhere.popup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674997684081" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/TableController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/TableController.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
