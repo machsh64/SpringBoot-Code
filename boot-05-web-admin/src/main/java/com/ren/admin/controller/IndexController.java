@@ -1,12 +1,17 @@
 package com.ren.admin.controller;
 
 import com.ren.admin.entity.User;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
 
 /**
@@ -17,6 +22,16 @@ import javax.servlet.http.HttpSession;
  **/
 @Controller
 public class IndexController {
+
+    @Resource
+    JdbcTemplate jdbcTemplate;
+
+    @ResponseBody
+    @GetMapping("/sql")
+    public String queryForDb(){
+        Integer integer = jdbcTemplate.queryForObject("SELECT COUNT(*) FROM user", Integer.class);
+        return "行数是 ： " + integer;
+    }
 
     /**
      * 来登录页

@@ -1,7 +1,6 @@
 package com.ren.admin.config;
 
 import com.ren.admin.interceptor.LoginInterceptor;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.HandlerExceptionResolver;
 import org.springframework.web.servlet.config.annotation.*;
