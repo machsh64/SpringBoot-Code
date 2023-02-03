@@ -41,7 +41,7 @@ public class MyDataSourceConfig {
      * 配置 druid 的监控页功能
      * @return
      */
-    @Bean
+  //  @Bean
     public ServletRegistrationBean<StatViewServlet> staViewServlet(){
 
         StatViewServlet statViewServlet = new StatViewServlet();
@@ -55,7 +55,7 @@ public class MyDataSourceConfig {
     /**
      * WebStatFilter 用于采集web-jdbc关联监控的数据。
      */
-    @Bean
+  //  @Bean
     public FilterRegistrationBean webStatFilter(){
         WebStatFilter webStatFilter = new WebStatFilter();
 

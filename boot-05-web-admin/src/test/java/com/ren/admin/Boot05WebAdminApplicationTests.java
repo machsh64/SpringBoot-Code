@@ -8,6 +8,8 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.annotation.Resource;
 import javax.sql.DataSource;
+import java.sql.Connection;
+import java.sql.SQLException;
 
 @Slf4j
 @SpringBootTest
@@ -19,7 +21,7 @@ class Boot05WebAdminApplicationTests {
     @Autowired
     DataSource dataSource;
     @Test
-    void contextLoads() {
+    void contextLoads() throws SQLException {
 
         String username = jdbcTemplate.queryForObject("select username from user where id = 1", String.class);
         log.info("1 姓名为 ： "+username);    // 2023-01-31 21:36:20.728  INFO 10888 --- [main] c.r.a.Boot05WebAdminApplicationTests     : 1 姓名为 ： lucy

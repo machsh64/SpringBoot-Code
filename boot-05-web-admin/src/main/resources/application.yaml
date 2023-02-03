@@ -5,8 +5,34 @@ spring:
     password: omgd45945.+
     driver-class-name: com.mysql.cj.jdbc.Driver
 
+    filters: wall,stat
+    filter:
+      stat:
+        log-slow-sql: true
+        slow-sql-millis: 1
+        enabled: true
+      wall:
+        enabled: true
+        config:
+          drop-table-allow: false
+
     druid:
-      filters:
-        - stat
-        - wall
-      max-active: 12
+      aop-patterns: com.ren.admin.*
+
+      stat-view-servlet:
+        enabled: true
+        login-username: 123
+        login-password: 123123
+        reset-enable: false
+
+      web-stat-filter:
+        enabled: true
+        url-pattern: /*
+        exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
+
+
+    #druid:
+    #  filters:
+    #    - stat
+    #    - wall
+    #  max-active: 12
