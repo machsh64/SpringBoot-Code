@@ -36,3 +36,11 @@ spring:
     #    - stat
     #    - wall
     #  max-active: 12
+
+# 配置 mybatis 规则
+mybatis:
+  # 可以不写全局配置文件，所有全局配置文件的配置都放在configuration配置项中
+  # config-location: classpath:mybatis-config.xml
+  mapper-locations: classpath:com/ren/admin/mapper/*.xml
+  configuration:        # configuration 不能与 config-location 同时存在，所以一旦选择yaml配置就不能用配置文件配置
+    map-underscore-to-camel-case: true   # 开启驼峰命名法

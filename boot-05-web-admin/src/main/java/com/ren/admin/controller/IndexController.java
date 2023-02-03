@@ -1,15 +1,14 @@
 package com.ren.admin.controller;
 
 import com.ren.admin.entity.User;
+import com.ren.admin.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpSession;
@@ -25,6 +24,16 @@ public class IndexController {
 
     @Resource
     JdbcTemplate jdbcTemplate;
+    @Autowired
+    UserService userService;
+
+    @ResponseBody
+    @GetMapping("/user/{id}")
+    public User getById(@PathVariable("id") Integer userId){
+        User user = userService.getUserById(userId);
+
+        return user;
+    }
 
     @ResponseBody
     @GetMapping("/sql")

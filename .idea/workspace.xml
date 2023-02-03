@@ -26,8 +26,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="396e7e9d-427a-4eb2-aa16-f462f750c43d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/com/ren/admin/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-05-web-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/config/MyDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/config/MyDataSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/test/java/com/ren/admin/Boot05WebAdminApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/test/java/com/ren/admin/Boot05WebAdminApplicationTests.java" afterDir="false" />
     </list>
@@ -44,12 +49,14 @@
       <list>
         <option value="SpringConfig" />
         <option value="JavaFXApplication" />
-        <option value="Interface" />
         <option value="WebInit" />
         <option value="Tag Library Descriptor" />
         <option value="spring-beans.schema" />
         <option value="WebConfig" />
         <option value="HTML File" />
+        <option value="mybatis-config" />
+        <option value="Interface" />
+        <option value="mybatis-mapper" />
         <option value="Class" />
       </list>
     </option>
@@ -88,22 +95,24 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/live2d/AboutMe" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26666668" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\static" />
-      <recent name="D:\RenComp\SpringbootCode\boot-05-web-1\src\main\resources\templates" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates\error" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates\form" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\templates\table" />
       <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources" />
+      <recent name="D:\RenComp\SpringbootCode\boot-05-web-admin\src\main\resources\static" />
+      <recent name="D:\RenComp\SpringbootCode\boot-05-web-1\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -113,12 +122,12 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Boot05WebAdminApplication">
+  <component name="RunManager" selected="JUnit.Boot05WebAdminApplicationTests.testInsert">
     <configuration name="Boot05WebAdminApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-05-web-admin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ren.admin.*" />
+          <option name="PATTERN" value="com.ren.admin.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,7 +142,7 @@
       <module name="boot-05-web-admin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ren.admin.*" />
+          <option name="PATTERN" value="com.ren.admin.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,17 +154,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloworldApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="helloworld" />
+    <configuration name="Boot05WebAdminApplicationTests.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-05-web-admin" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ren.springboot.helloworld.*" />
+          <option name="PATTERN" value="com.ren.admin.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ren.springboot.helloworld" />
-      <option name="MAIN_CLASS_NAME" value="com.ren.springboot.helloworld.HelloworldApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.ren.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.ren.admin.Boot05WebAdminApplicationTests" />
+      <option name="METHOD_NAME" value="testInsert" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -225,24 +235,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.HelloworldApplicationTests" />
       <item itemvalue="JUnit.MybatisplusdemoApplicationTests.query" />
       <item itemvalue="JUnit.Boot05WebAdminApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.Boot05WebAdminApplicationTests" />
       <item itemvalue="Spring Boot.Boot01Helloworld2Application" />
       <item itemvalue="Spring Boot.Boot05Web1Application" />
       <item itemvalue="Spring Boot.HelloworldApplication" />
       <item itemvalue="Spring Boot.MybatisplusdemoApplication" />
       <item itemvalue="Spring Boot.Boot05WebAdminApplication" />
       <item itemvalue="Spring Boot.MainApplication" />
-      <item itemvalue="JUnit.Boot05WebAdminApplicationTests" />
+      <item itemvalue="JUnit.Boot05WebAdminApplicationTests.testInsert" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Boot05WebAdminApplicationTests" />
+        <item itemvalue="JUnit.Boot05WebAdminApplicationTests.testInsert" />
         <item itemvalue="JUnit.Boot05WebAdminApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.Boot05WebAdminApplicationTests" />
         <item itemvalue="Spring Boot.MainApplication" />
         <item itemvalue="JUnit.MybatisplusdemoApplicationTests.query" />
-        <item itemvalue="JUnit.HelloworldApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +273,8 @@
       <workItem from="1673515552752" duration="13520000" />
       <workItem from="1673597552567" duration="36872000" />
       <workItem from="1673864831740" duration="108949000" />
-      <workItem from="1675411711377" duration="9146000" />
+      <workItem from="1675411711377" duration="12176000" />
+      <workItem from="1675425800151" duration="4017000" />
     </task>
     <servers />
   </component>
@@ -310,10 +321,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="709" y="377" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673520903618" />
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1675176318666">
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1675427084093">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675176318666" />
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675427084093" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1674900616411">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -322,45 +333,45 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675272191075" />
-    <state width="1528" height="266" key="GridCell.Tab.0.bottom" timestamp="1675420330628">
+    <state width="1528" height="278" key="GridCell.Tab.0.bottom" timestamp="1675429177121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="266" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675420330628" />
+    <state width="1528" height="278" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675429177121" />
     <state width="1528" height="311" key="GridCell.Tab.0.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="266" key="GridCell.Tab.0.center" timestamp="1675420330628">
+    <state width="1528" height="278" key="GridCell.Tab.0.center" timestamp="1675429177121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="266" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675420330628" />
+    <state width="1528" height="278" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675429177121" />
     <state width="1528" height="311" key="GridCell.Tab.0.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="266" key="GridCell.Tab.0.left" timestamp="1675420330628">
+    <state width="1528" height="278" key="GridCell.Tab.0.left" timestamp="1675429177121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="266" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675420330627" />
+    <state width="1528" height="278" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675429177121" />
     <state width="1528" height="311" key="GridCell.Tab.0.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602393" />
-    <state width="1528" height="266" key="GridCell.Tab.0.right" timestamp="1675420330628">
+    <state width="1528" height="278" key="GridCell.Tab.0.right" timestamp="1675429177121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="266" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675420330628" />
+    <state width="1528" height="278" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675429177121" />
     <state width="1528" height="311" key="GridCell.Tab.0.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="266" key="GridCell.Tab.1.bottom" timestamp="1675420330628">
+    <state width="1528" height="278" key="GridCell.Tab.1.bottom" timestamp="1675429177121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="266" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675420330628" />
+    <state width="1528" height="278" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675429177121" />
     <state width="1528" height="311" key="GridCell.Tab.1.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="266" key="GridCell.Tab.1.center" timestamp="1675420330628">
+    <state width="1528" height="278" key="GridCell.Tab.1.center" timestamp="1675429177121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="266" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675420330628" />
+    <state width="1528" height="278" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675429177121" />
     <state width="1528" height="311" key="GridCell.Tab.1.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="266" key="GridCell.Tab.1.left" timestamp="1675420330628">
+    <state width="1528" height="278" key="GridCell.Tab.1.left" timestamp="1675429177121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="266" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675420330628" />
+    <state width="1528" height="278" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675429177121" />
     <state width="1528" height="311" key="GridCell.Tab.1.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="266" key="GridCell.Tab.1.right" timestamp="1675420330628">
+    <state width="1528" height="278" key="GridCell.Tab.1.right" timestamp="1675429177121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="266" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675420330628" />
+    <state width="1528" height="278" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675429177121" />
     <state width="1528" height="311" key="GridCell.Tab.1.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
     <state x="362" y="172" key="Maven.ArtifactSearchDialog" timestamp="1673605095798">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -374,10 +385,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="585" y="362" key="Registry/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673605506519" />
-    <state x="446" y="144" key="SettingsEditor" timestamp="1674215534106">
+    <state x="446" y="144" key="SettingsEditor" timestamp="1675425780649">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="446" y="144" key="SettingsEditor/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674215534106" />
+    <state x="446" y="144" key="SettingsEditor/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675425780649" />
     <state x="405" y="275" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1673692807854">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -402,5 +413,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1119" y="142" width="672" height="678" key="search.everywhere.popup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675171588674" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
