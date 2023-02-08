@@ -4,7 +4,6 @@ spring:
     username: root
     password: omgd45945.+
     driver-class-name: com.mysql.cj.jdbc.Driver
-
     filters: wall,stat
     filter:
       stat:
@@ -30,17 +29,26 @@ spring:
         url-pattern: /*
         exclusions: '*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*'
 
-
     #druid:
     #  filters:
     #    - stat
     #    - wall
     #  max-active: 12
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled: true
 
 # 配置 mybatis 规则
-mybatis:
-  # 可以不写全局配置文件，所有全局配置文件的配置都放在configuration配置项中
-  # config-location: classpath:mybatis-config.xml
-  mapper-locations: classpath:com/ren/admin/mapper/*.xml
-  configuration:        # configuration 不能与 config-location 同时存在，所以一旦选择yaml配置就不能用配置文件配置
+#mybatis:
+#  # 可以不写全局配置文件，所有全局配置文件的配置都放在configuration配置项中
+#  # config-location: classpath:mybatis-config.xml
+#  # mapper-locations: classpath:com/ren/admin/mapper/*.xml
+#  configuration:        # configuration 不能与 config-location 同时存在，所以一旦选择yaml配置就不能用配置文件配置
+#    map-underscore-to-camel-case: true   # 开启驼峰命名法
+
+# 配置 mybatis-plus 规则
+mybatis-plus:
+  configuration:
     map-underscore-to-camel-case: true   # 开启驼峰命名法
+  type-aliases-package: com.ren.admin.entity   # 开启类到配置文件映射

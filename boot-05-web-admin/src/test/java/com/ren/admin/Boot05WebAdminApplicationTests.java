@@ -2,6 +2,7 @@ package com.ren.admin;
 
 import com.ren.admin.entity.User;
 import com.ren.admin.mapper.UserMapper;
+import com.ren.admin.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,11 +19,13 @@ import java.sql.SQLException;
 class Boot05WebAdminApplicationTests {
 
     @Resource
-    JdbcTemplate jdbcTemplate;
+    private JdbcTemplate jdbcTemplate;
     @Autowired
-    DataSource dataSource;
+    private DataSource dataSource;
     @Resource
-    UserMapper userMapper;
+    private UserMapper userMapper;
+    @Autowired
+    private UserService userService;
 
     @Test
     void contextLoads() throws SQLException {
@@ -37,9 +40,15 @@ class Boot05WebAdminApplicationTests {
 
     @Test
     public void testInsert() {
-        User user = new User("liuliu", "qieqie", "2019-12-03");
-        Integer integer = userMapper.saveUser(user);
-        log.info("inser IIII************** {}",integer);
+     //  User user = new User("liuliu", "qieqie", "2019-12-03");
+     //  Integer integer = userMapper.saveUser(user);
+     //  log.info("inser IIII************** {}",integer);
+    }
+
+    @Test
+    public void testUserMapper() {
+        User user = userMapper.selectById(1);
+        log.info("#### 用户信息 ： {}#####",user);
     }
 
 }

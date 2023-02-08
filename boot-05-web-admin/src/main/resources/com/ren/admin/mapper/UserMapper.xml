@@ -8,7 +8,7 @@
 
     <!-- User getUser(Integer id); -->
     <select id="getUser" resultType="com.ren.admin.entity.User">
-        SELECT id, username, password, birthday
+        SELECT id, name, age, email
         FROM user
         WHERE id = #{id}
     </select>
