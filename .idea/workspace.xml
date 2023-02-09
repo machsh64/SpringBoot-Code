@@ -25,12 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="396e7e9d-427a-4eb2-aa16-f462f750c43d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/test/java/com/ren/admin/Junit5Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/table/dynamic_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/templates/table/dynamic_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/test/java/com/ren/admin/Boot05WebAdminApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/test/java/com/ren/admin/Boot05WebAdminApplicationTests.java" afterDir="false" />
-    </list>
+    <list default="true" id="396e7e9d-427a-4eb2-aa16-f462f750c43d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -278,7 +273,7 @@
       <workItem from="1675425800151" duration="6110000" />
       <workItem from="1675528741961" duration="2867000" />
       <workItem from="1675698054494" duration="21258000" />
-      <workItem from="1675859364178" duration="10201000" />
+      <workItem from="1675859364178" duration="10929000" />
     </task>
     <servers />
   </component>
