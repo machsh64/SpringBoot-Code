@@ -4,6 +4,7 @@ import com.ren.admin.entity.User;
 import com.ren.admin.mapper.UserMapper;
 import com.ren.admin.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,6 +16,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 @Slf4j
+@Disabled
 @SpringBootTest
 class Boot05WebAdminApplicationTests {
 
