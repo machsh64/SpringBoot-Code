@@ -38,6 +38,15 @@ spring:
     hiddenmethod:
       filter:
         enabled: true
+  boot:
+    admin:
+      client:
+        url: http://localhost:8888/
+        instance:
+          prefer-ip: true  # 使用ip注册进来
+
+  application:
+    name: boot-05-web-admin
 
 # 配置 mybatis 规则
 #mybatis:
@@ -52,3 +61,36 @@ mybatis-plus:
   configuration:
     map-underscore-to-camel-case: true   # 开启驼峰命名法
   type-aliases-package: com.ren.admin.entity   # 开启类到配置文件映射
+
+# management 是所有actuator的配置
+# management.endpoint.端点名.xxx  对某个端点的具体配置
+management:
+  endpoints:
+    enabled-by-default: true  # false 默认关闭所有监控端口 true 则相反
+    web:
+      exposure:
+        include: "*"  # 以web方式暴漏所有端口
+  endpoint:
+    # 这之下每一个监控端口都可以分开调节与开启
+    health:
+      show-details: always   # 暴漏health下的所有详细配置
+      enabled: true
+
+    info:
+      enabled: true
+
+    beans:
+      enabled: true
+
+    metrics:
+      enabled: true
+
+  info:
+    env:
+      enabled: true
+
+info:
+  appName: boot-admin
+  appVersion: 1.0.0
+  mavenProjectName: @project.artifactId@
+  mavenProjectVersion: @project.version@

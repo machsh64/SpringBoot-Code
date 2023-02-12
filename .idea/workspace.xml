@@ -25,7 +25,29 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="396e7e9d-427a-4eb2-aa16-f462f750c43d" name="Default Changelist" comment="" />
+    <list default="true" id="396e7e9d-427a-4eb2-aa16-f462f750c43d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/boot-05-adminserver/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-adminserver/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-adminserver/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-adminserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-adminserver/src/main/java/com/ren/boot/Boot05AdminserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-adminserver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-adminserver/src/test/java/com/ren/boot/Boot05AdminserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/endpoion/MyServiceEndPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/health/MyComHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/java/com/ren/admin/info/AppInfoContributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-09-features-profile/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-09-features-profile/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-09-features-profile/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-09-features-profile/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-09-features-profile/src/main/java/com/ren/boot/Boot09FeaturesProfileApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-09-features-profile/src/main/java/com/ren/boot/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-09-features-profile/src/main/java/com/ren/boot/entity/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-09-features-profile/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot-09-features-profile/src/test/java/com/ren/boot/Boot09FeaturesProfileApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/boot-05-web-admin/src/main/resources/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +106,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gitRep" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../easc" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -115,7 +137,23 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Junit5Test">
+  <component name="RunManager" selected="JUnit.Boot09FeaturesProfileApplicationTests.test">
+    <configuration name="Boot09FeaturesProfileApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot-09-features-profile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ren.boot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ren.boot" />
+      <option name="MAIN_CLASS_NAME" value="com.ren.boot.Boot09FeaturesProfileApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Junit5Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="boot-05-web-admin" />
       <extension name="coverage">
@@ -179,25 +217,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Junit5Test.testSimpleAssertions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-05-web-admin" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ren.admin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ren.admin" />
-      <option name="MAIN_CLASS_NAME" value="com.ren.admin.Junit5Test" />
-      <option name="METHOD_NAME" value="testSimpleAssertions" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Boot01Helloworld2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-01-helloworld-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ren.boot.Boot01Helloworld2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Boot01Helloworld2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="boot-01-helloworld-2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ren.boot.Boot01Helloworld2Application" />
+    <configuration name="Boot05AdminserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-05-adminserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ren.boot.Boot05AdminserverApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -216,9 +245,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Boot09FeaturesProfileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-09-features-profile" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ren.boot.Boot09FeaturesProfileApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloworldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="helloworld" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ren.springboot.helloworld.HelloworldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="boot-01-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ren.boot.MainApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -231,24 +274,27 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.Junit5Test.testArray" />
+      <item itemvalue="JUnit.Junit5Test.testAll" />
+      <item itemvalue="JUnit.Junit5Test.testAssumptions" />
+      <item itemvalue="JUnit.Junit5Test" />
+      <item itemvalue="JUnit.Boot09FeaturesProfileApplicationTests.test" />
       <item itemvalue="Spring Boot.Boot01Helloworld2Application" />
       <item itemvalue="Spring Boot.Boot05Web1Application" />
       <item itemvalue="Spring Boot.HelloworldApplication" />
       <item itemvalue="Spring Boot.MybatisplusdemoApplication" />
       <item itemvalue="Spring Boot.Boot05WebAdminApplication" />
-      <item itemvalue="JUnit.Junit5Test.testSimpleAssertions" />
-      <item itemvalue="JUnit.Junit5Test.testArray" />
-      <item itemvalue="JUnit.Junit5Test.testAll" />
-      <item itemvalue="JUnit.Junit5Test.testAssumptions" />
-      <item itemvalue="JUnit.Junit5Test" />
+      <item itemvalue="Spring Boot.MainApplication" />
+      <item itemvalue="Spring Boot.Boot05AdminserverApplication" />
+      <item itemvalue="Spring Boot.Boot09FeaturesProfileApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Boot09FeaturesProfileApplicationTests.test" />
         <item itemvalue="JUnit.Junit5Test" />
         <item itemvalue="JUnit.Junit5Test.testAssumptions" />
         <item itemvalue="JUnit.Junit5Test.testAll" />
         <item itemvalue="JUnit.Junit5Test.testArray" />
-        <item itemvalue="JUnit.Junit5Test.testSimpleAssertions" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +319,8 @@
       <workItem from="1675425800151" duration="6110000" />
       <workItem from="1675528741961" duration="2867000" />
       <workItem from="1675698054494" duration="21258000" />
-      <workItem from="1675859364178" duration="10929000" />
+      <workItem from="1675859364178" duration="31489000" />
+      <workItem from="1676122482871" duration="1368000" />
     </task>
     <servers />
   </component>
@@ -324,61 +371,65 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="709" y="377" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1673520903618" />
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1675852131882">
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1676028196654">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675852131882" />
+    <state x="765" y="255" key="#com.intellij.ide.util.MemberChooser/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676028196654" />
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1676033077771">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676033077771" />
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog" timestamp="1674900616411">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="DiffContextDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674900616411" />
-    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1675734411989">
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1676046200862">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="740" y="294" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675734411989" />
+    <state x="740" y="294" key="FileChooserDialogImpl/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676046200862" />
     <state x="784" y="442" key="Github.CreateGistDialog" timestamp="1675859132839">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="784" y="442" key="Github.CreateGistDialog/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675859132839" />
-    <state width="1876" height="384" key="GridCell.Tab.0.bottom" timestamp="1675940360605">
+    <state width="1491" height="343" key="GridCell.Tab.0.bottom" timestamp="1676122444810">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="384" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675940360605" />
+    <state width="1491" height="343" key="GridCell.Tab.0.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676122444810" />
     <state width="1528" height="311" key="GridCell.Tab.0.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1876" height="384" key="GridCell.Tab.0.center" timestamp="1675940360605">
+    <state width="1491" height="343" key="GridCell.Tab.0.center" timestamp="1676122444810">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="384" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675940360605" />
+    <state width="1491" height="343" key="GridCell.Tab.0.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676122444810" />
     <state width="1528" height="311" key="GridCell.Tab.0.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1876" height="384" key="GridCell.Tab.0.left" timestamp="1675940360605">
+    <state width="1491" height="343" key="GridCell.Tab.0.left" timestamp="1676122444810">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="384" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675940360605" />
+    <state width="1491" height="343" key="GridCell.Tab.0.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676122444810" />
     <state width="1528" height="311" key="GridCell.Tab.0.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602393" />
-    <state width="1876" height="384" key="GridCell.Tab.0.right" timestamp="1675940360605">
+    <state width="1491" height="343" key="GridCell.Tab.0.right" timestamp="1676122444810">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="384" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675940360605" />
+    <state width="1491" height="343" key="GridCell.Tab.0.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676122444810" />
     <state width="1528" height="311" key="GridCell.Tab.0.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="393" key="GridCell.Tab.1.bottom" timestamp="1675934886809">
+    <state width="1491" height="343" key="GridCell.Tab.1.bottom" timestamp="1676122444810">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="393" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675934886809" />
+    <state width="1491" height="343" key="GridCell.Tab.1.bottom/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676122444810" />
     <state width="1528" height="311" key="GridCell.Tab.1.bottom/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="393" key="GridCell.Tab.1.center" timestamp="1675934886809">
+    <state width="1491" height="343" key="GridCell.Tab.1.center" timestamp="1676122444810">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="393" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675934886809" />
+    <state width="1491" height="343" key="GridCell.Tab.1.center/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676122444810" />
     <state width="1528" height="311" key="GridCell.Tab.1.center/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="393" key="GridCell.Tab.1.left" timestamp="1675934886808">
+    <state width="1491" height="343" key="GridCell.Tab.1.left" timestamp="1676122444810">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="393" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675934886808" />
+    <state width="1491" height="343" key="GridCell.Tab.1.left/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676122444810" />
     <state width="1528" height="311" key="GridCell.Tab.1.left/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
-    <state width="1528" height="393" key="GridCell.Tab.1.right" timestamp="1675934886809">
+    <state width="1491" height="343" key="GridCell.Tab.1.right" timestamp="1676122444810">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1528" height="393" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1675934886809" />
+    <state width="1491" height="343" key="GridCell.Tab.1.right/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676122444810" />
     <state width="1528" height="311" key="GridCell.Tab.1.right/1920.0.1536.864/0.0.1920.1080@0.0.1920.1080" timestamp="1674739602394" />
     <state x="362" y="172" key="Maven.ArtifactSearchDialog" timestamp="1673605095798">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -408,10 +459,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="664" y="150" width="591" height="780" key="find.popup/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674730618889" />
-    <state x="408" y="202" width="970" height="646" key="new project wizard" timestamp="1674727950099">
+    <state x="581" y="189" width="970" height="646" key="new project wizard" timestamp="1676033060758">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="408" y="202" width="970" height="646" key="new project wizard/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1674727950099" />
+    <state x="581" y="189" width="970" height="646" key="new project wizard/1920.0.1463.823/0.0.1920.1080@0.0.1920.1080" timestamp="1676033060758" />
     <state x="175" y="136" width="1015" height="668" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1674215530804">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
